@@ -1,1 +1,1 @@
-print('Belajar OOP')
+print('Belajar OOPS')
