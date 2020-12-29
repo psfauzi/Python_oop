@@ -18,3 +18,21 @@ Beli = Handphone('Samsung',50000)
 print(f'Nama Penjualnya {Beli.penjual}')
 
 print(Beli.Keterangan(5))
+
+
+class Lingkaran:
+
+    phi = 3.14
+
+    def __init__(self,radius):
+        self.radius = radius
+        self.luas =  2*self.phi*self.radius*self.radius
+
+    def keliling(self):
+        return 2*self.phi*self.radius
+
+l1 = Lingkaran(10)
+
+print(f'Luas dari {l1.radius} adalah {l1.luas}')
+
+print(f'Keliling dari {l1.radius} adalah {l1.keliling()} ')
